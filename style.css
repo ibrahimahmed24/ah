@@ -1,0 +1,445 @@
+* {
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+.nav1{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav1  .serch-1{
+position:relative;
+
+}
+.nav1  .serch-1 .fa-solid{
+    position:absolute;
+    font-size:20px;
+    top: 5px;
+   left: 0px;
+    color: rgb(27, 37, 233);
+}
+.nav1  .serch-1 .ty{
+padding: 6px;
+font-size: 15px;
+border: none;
+position: absolute;
+left: 25px;
+}
+.nav1 .serch-1 .ty:focus{
+  outline:none;
+}
+.nav1 .neme{
+    border:3px solid rgb(43, 38, 38);
+    padding: 15px 15px 15px 15px;
+    margin-top:30px;
+    margin-left: 100px;
+}
+.nav1 .icon{
+   margin-right: 200px;
+    margin-top: 20px;
+    position: relative;
+}
+.nav1 .icon .fa-solid{
+    margin-left: 15px;
+    color: rgb(157, 155, 155);
+    font-size: 20px;
+}
+.nav1 .icon .fa-solid:hover{
+  background-color: rgb(193, 184, 184);
+}
+.nav1 .icon .tow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ color:rgb(255, 255, 255);
+ background-color: rgb(87, 87, 186);
+ width: 25px;
+ height: 25px;
+ border-radius: 15px;
+ position: absolute;
+bottom: 17px;
+left: 112px;
+
+}
+/*nav and*/
+.sect2 .homee{
+    display: flex;
+    justify-content: center;
+
+}
+.sect2 .homee a{
+    margin: 15px;
+    text-decoration: none;
+}
+.sect2 .homee  a:hover{
+    background-color: rgb(13, 225, 233);
+}
+.sect2 .hero_12{
+    width: 100%;
+    height:450px;
+    background-color: rgb(100, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect2 .img1{
+    width:450px;
+    height:300px;
+}
+.sect2 .img1-h1{
+margin-right:100px;
+margin-left: 0px;
+} 
+.sect2 .shop- .finding-{
+    font-size:30px;
+    color: rgb(72, 71, 71);
+}
+.sect2 .shop- p{
+    font-size:20px;
+    color: rgb(86, 84, 84);
+}
+.sect2 .shop- .SHOP{
+    padding: 20px 30px  20px 30px;
+    margin-top: 50px;
+    color: rgb(233, 233, 233);
+    background-color: rgb(52, 52, 195);
+  transition:all .1 ease ;
+}
+.sect2 .shop- .SHOP:hover{
+    background-color: rgb(43, 43, 221);
+    transform:scale(1.1);
+}
+.car {
+    width: 100%;
+    height: 200px;
+}
+.car .FREE-{
+margin-top: 30px;
+}
+.car .FREE-1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 25px;
+  margin-left: 25px;
+}
+.car .FREE-1 h1{
+color: black;
+margin-bottom: 15px;
+}
+.car .FREE-1 p{
+    color: rgb(125, 123, 123);
+}
+.car .FREE-1 i{
+    color: rgb(132, 132, 201);
+    font-size: 50px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.iaco2{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 15px;
+   margin-right:px;
+}
+.img- .rera  .women{
+    margin: 15px;
+    position:relative;
+   
+}
+.img- .rera img{
+    width: 400px;
+    height: 400px;
+   transition: all 1s ease;
+}
+.img- .rera .img-9:hover{
+    transform:scale(1.1) ;
+}
+.img- .rera{
+display: flex;
+justify-content: center;
+margin: 30px;
+margin: 15px;
+}
+.img- .rera p{
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+}
+.img- .rera h1{
+    position: absolute;
+    bottom: 15px;
+   left: 25px;
+}
+.Featured{
+   background-color: rgb(237, 240, 243);
+    width: 100%;
+   
+}
+.Featured h1{
+    display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.Featured .Tank-55{
+    display: flex;
+  justify-content: center;
+ margin-top: 30px;
+}
+.Featured .Tank-{
+    margin: 25px;
+    background-color: rgb(254, 254, 254);
+    width: 400px;
+    height: 400px;
+
+}
+.Featured .Tank- img{
+    width: 400px;
+    height: 250px;
+    position: relative;
+}
+.Featured .Tank- p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(91, 91, 89);
+    margin: 10px;
+}
+.Featured .Tank- .colr{
+    color: rgb(67, 67, 209);
+}
+.sect-5{
+    width: 100%;
+}
+.sect-5 .Big--{
+  display: flex;
+  justify-content: center;
+}
+.sect-5 .Big-- {
+    color: rgb(101, 101, 255);
+    font-size:35px;
+    margin-top: 30px;
+}
+
+.sect-5  .blog_--{
+    display:flex;
+justify-content: center;
+  
+    
+}
+.sect-5  .blog_-- img{
+    width: 650px;
+    height: 550px;
+}
+.sect-5  .blog_--    .blog_-{
+    margin-top: 30px;
+    margin-right:50px;
+}
+.sect-5  .blog_-- .h66- h1{
+    color: rgb(86, 86, 202);
+    font-size: 35px;
+    margin-left: 60px;
+}
+.sect-5  .blog_-- p{
+    font-size: 25px;
+    color: rgb(190, 182, 182);
+}
+.sect-5  .blog_-- .h66--0{
+margin-top:10px; 
+margin-bottom:25px;
+color: rgb(204, 204, 202);
+margin-left: 60px;
+
+}
+.sect-5  .blog_--  .h66--0 .ibrahim-{
+color: rgb(70, 70, 198);
+}
+.sect-5  .blog_--     .Lorem{
+    margin-left:17px;
+}
+.but-{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.facere{
+    margin-left: 20px;
+}
+.veniam{
+    margin-left:150px;
+}
+.shop-0{
+    font-size: 25px;
+    padding: 5px 7px 5px 7px;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: rgb(255, 252, 252);
+    background-color: rgb(104, 104, 234);
+    transition: all 1s ease;
+    
+}
+.shop-0:hover{
+    background-color: rgb(18, 18, 197);
+    transform: scale(1.1);
+}
+.end-fotaer{
+    width: 100%;
+    height: 750px;
+}
+.end-fotaer  .abcde{
+    display: flex;
+    justify-content:center;
+   align-items: center;
+   margin-top: 150px;
+
+}
+
+.end-fotaer  .abcde p{
+    margin: 20px;
+color: rgb(123, 125, 127);
+}
+
+.end-fotaer .Navi{
+    display: flex;
+    justify-content:center;
+   align-items: center;
+   margin-top: 120px;
+
+}
+.end-fotaer  .Copyr {
+display: flex;
+justify-content: center;
+margin-top: 200px;
+}
+.end-fotaer  .Copyr a{
+text-decoration: none;
+color: rgba(0, 34, 253, 0.793);
+}
+.send{
+    position: relative;
+}
+.end-fotaer  .send-1  .send input{
+    padding: 10px 100px 25px  10px;
+    background-color: rgb(249, 245, 245);
+    outline: none;
+    border:1px solid rgb(21, 68, 150);
+}
+.end-fotaer .send button{
+    padding: 10px  25px;
+    background-color: rgb(125, 125, 240);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:35px;
+   right: 25px;
+   
+   
+}
+.send-1{
+    display: flex;
+    justify-content: end;
+    margin-top: 120px;
+    margin-right: 270px;
+}
+.end-fotaer .send button:hover{
+    transform: transition(1.1);
+    background-color: rgb(24, 24, 212);
+}
+
+.h66-{
+    margin-left: 100px;
+}
+.all-1{
+    display: flex;
+    justify-content: space-around;
+}
+.aa-11{
+    display: flex;
+    justify-content: space-between;
+
+}
+.MEN-33{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+   margin: 25px;
+    background-color: rgba(255, 251, 251, 0.943);
+   border: 1px solid rgb(168, 171, 172);
+}
+.kk-5{
+    margin-top: 20px;
+    
+}
+.kk-5 p{
+    margin: 5px;
+}
+.MEN-11{
+    color: blueviolet;
+    margin-top: 2px;
+}
+.MEN-11 {
+   margin-top: 5px;
+}
+
+table{
+    border-spacing:0px;
+  width: 100% ;
+  border: 1px solid rgb(15, 6, 6);
+  border-bottom: 0px;
+  
+}
+table td {
+    border-bottom: 0px;
+    text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(192, 188, 188);
+}
+
+.update-{
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.update- button{
+    margin-left: 25px;
+    padding: 10px 60px 10px 60px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 254, 255);
+}
+.update- .update{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.cart{
+    margin-right: 30px;
+    
+}
+.sub {
+border-top: 1px solid black;
+display: flex;
+justify-content: space-around;
+margin-top: 10px;
+margin-right: 150px;
+}
+
+
+.cart .proceed-0{
+    margin-top: 100px;
+    margin-right: 100px;
+    padding: 20px 60px 20px 60px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.apply-0 .apply-2{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.apply-0 input {
+    margin-left: 20px;
+    padding: 5px 30px 5px 30px;
+    border: none;
+}

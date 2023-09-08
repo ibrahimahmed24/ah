@@ -1,0 +1,9 @@
+.MEN-33{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+   margin: 25px;
+    background-color: rgba(255, 251, 251, 0.943);
+   border: 1px solid rgb(168, 171, 172);
+}
